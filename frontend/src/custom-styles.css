@@ -1,0 +1,81 @@
+/* Primary Button - Beige background, brown borders */
+.btn-primary {
+  background-color: #d2b48c !important; /* Beige */
+  border-color: #d2b48c !important; /* Saddle Brown */
+}
+
+.btn-primary:hover {
+  background-color: #c19a6b !important; /* Light Brown on hover */
+  border-color: #d2b48c !important; /* Saddle Brown */
+}
+
+/* Outline Button - Brown text and borders */
+.btn-outline-primary {
+  color: #8b4513 !important; /* Saddle Brown for text */
+  border-color: #8b4513 !important; /* Brown border */
+}
+
+/* Hover styles for outline button */
+.btn-outline-primary:hover {
+  background-color: #d2b48c !important; /* Beige background */
+  border-color: #8b4513 !important; /* Brown border */
+  color: #ffffff !important; /* White text */
+}
+
+/* Checked/active state for the outline button */
+.btn-check:checked + .btn-outline-primary {
+  background-color: #8b4513 !important; /* Brown background */
+  border-color: #8b4513 !important; /* Brown border */
+  color: #ffffff !important; /* White text */
+}
+
+.icon-hover {
+  display: inline-block; /* Ensures transform applies correctly */
+  transition: transform 0.2s, color 0.2s !important;
+}
+
+.icon-hover:hover {
+  transform: scale(1.2) !important;
+  color: #8b4513 !important;
+}
+
+.icon-hover:active {
+  transform: scale(0.9) !important;
+  color: #8b4513 !important;
+}
+
+.link-hover {
+  display: inline-block; /* Ensures transform applies correctly */
+  transition: transform 0.2s, color 0.2s !important;
+}
+
+.link-hover:hover {
+  transform: scale(1.1) !important;
+}
+
+.link-hover:active {
+  transform: scale(0.95) !important;
+}
+
+.post-option {
+  display: inline-block; /* Ensures transform applies correctly */
+  transition: transform 0.2s !important;
+}
+.post-option:active {
+  transform: scale(1.03) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #d2b48cc6; /* Example color for expanded state */
+}
+
+.content-wrapper {
+  padding-top: 70px; /* Adjust this value based on the navbar height */
+}
+
+.scrollable-container {
+  max-height: 620px; /* Adjust height as needed */
+  overflow-y: auto;
+
+  padding: 15px; /* Optional: padding inside */
+}

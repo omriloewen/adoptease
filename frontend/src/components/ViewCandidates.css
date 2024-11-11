@@ -1,0 +1,6 @@
+/* Hide the colorMark column */
+table th:nth-child(7), 
+table td:nth-child(7) {
+  display: none;
+}
+
